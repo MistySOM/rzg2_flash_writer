@@ -12,7 +12,7 @@
 /* Use My DDR Parameters */
 #if (1)
 #include "param_mc_C-011_D4-01-1.c"
-#include "param_swizzle_T-1bc.c"
+#include "param_swizzle_T1bc.c"
 
 #elif (DDR4 == 1) /* changed #if to #elif */
 
@@ -52,7 +52,7 @@
 #else
 #error "Unknown size."
 #endif
-#if (SWIZZLE_T3CL == 1)
+#if (SWIZZLE_T3CL == 1
 #include "param_swizzle_T3cl.c"
 #elif (SWIZZLE_T3BCUL == 1)
 #include "param_swizzle_T3bcul.c"
